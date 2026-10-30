@@ -1,13 +1,22 @@
 Package: paqueteprueba
-Title: What the Package Does (One Line, Title Case)
+Title: Paquete Prueba Clase Rstudio
 Version: 0.0.0.9000
 Authors@R: 
     person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+Description: Este es un paquete de prueba para la clase numero 9 de la
+    materia Programacion II. Luego tendremos que repetir los mismos pasos para
+    nuestro verdadero proyecto de paquete de datos metereologicos.
+License: MIT + file LICENSE
 Config/roxygen2/version: 8.1.0
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 URL: https://github.com/moravilar/paqueteprueba
 BugReports: https://github.com/moravilar/paqueteprueba/issues
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0)
+VignetteBuilder: knitr
+Imports: 
+    cli
+Config/testthat/edition: 3
